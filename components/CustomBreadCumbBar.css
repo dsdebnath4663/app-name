@@ -1,0 +1,60 @@
+/* Custom styling for breadcrumbs */
+.breadcrumb-item {
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: "";
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: middle;
+  font-size: 16px; /* Adjust icon size */
+}
+
+/* Remove default slashes */
+.breadcrumb-item + .breadcrumb-item::before {
+  content: none;
+}
+
+/* Add custom separator (optional) */
+.custom-breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+  content: "\f054"; /* Example: Unicode for a right arrow */
+  font-family: "Bootstrap Icons"; /* Ensure the icon font is loaded */
+  margin: 0 10px; /* Adjust spacing as needed */
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: var(--bs-breadcrumb-divider, "") !important;
+}
+
+.curve-button {
+  color: #045a5c !important;
+  background-color: white !important;
+  width: 223px !important;
+  height: 43px !important;
+  border-radius: 24px 0px 24px 0px !important;
+  border: 2px solid #62c3c6 !important;
+}
+
+.curve-button-two {
+  color: #045a5c !important;
+  background-color: white !important;
+  width: 223px !important;
+  height: 43px !important;
+  border-radius: 24px 0px 24px 0px !important;
+  border: 2px solid #ecfeaa !important;
+}
+
+.row-margin {
+  margin-top: 22px !important;
+}
+
+.breadcrumb-item.active {
+  color: #045a5c !important;
+  font-weight: 800 !important;
+}

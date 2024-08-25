@@ -1,0 +1,245 @@
+.product-card {
+  position: relative !important;
+  border: 2px solid transparent !important;
+  border-radius: 0 !important;
+}
+
+.custom-border {
+  border-color: #28e3e9 !important;
+  border-radius: 15px 0 15px 0 !important; /* Adjust the radius values as needed */
+}
+
+/* Style for the image with margins */
+.product-card .card-img-top {
+  width: 40% !important; /* Adjust this percentage as needed */
+  height: auto !important; /* Maintain aspect ratio */
+  margin-top: 10px !important; /* Adjust top margin */
+  margin-bottom: 10px !important; /* Adjust bottom margin */
+  display: block !important; /* Ensure margins are applied */
+  margin-left: auto !important; /* Center horizontally */
+  margin-right: auto !important; /* Center horizontally */
+}
+
+/* Background color for Card.Body */
+.product-card .card-body {
+  background-color: rgba(
+    98,
+    195,
+    198,
+    0.3
+  ) !important; /* Background color with opacity */
+}
+
+/* Style for Card.Title */
+.product-card .card-title {
+  font-family: "Sora", sans-serif !important; /* Ensure Sora font is loaded */
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  line-height: 22.68px !important;
+  letter-spacing: 0.01em !important;
+  text-align: left !important;
+  margin-top: 18px !important;
+  margin-right: 20px !important; /* Adjust right margin as needed */
+  color: #116a6c !important; /* Set text color */
+}
+
+/* Custom button styling */
+.custom-button {
+  width: 75px !important; /* Set the width of the button */
+  height: 24px !important; /* Set the height of the button */
+  padding: 2px 10px !important; /* Set padding inside the button */
+  gap: 10px !important; /* Set space between elements (if there are any) */
+  border-radius: 4px 0 0 0 !important; /* Rounded corners */
+  border: 0 0 2px 0 !important; /* Set border (bottom border only) */
+  font-family: "Sora", sans-serif !important; /* Apply the Sora font */
+  font-size: 16px !important; /* Set font size */
+  font-weight: 600 !important; /* Set font weight */
+  line-height: 20.16px !important; /* Set line height */
+  letter-spacing: 0.01em !important; /* Set letter spacing */
+  text-align: left !important; /* Align text to the left */
+  opacity: 1 !important; /* Set button opacity */
+  color: #365758 !important; /* Set text color (if the button is visible) */
+  background: #62c3c64d !important;
+  border: none !important; /* Remove the border */
+}
+
+/* Custom button styling */
+.custom-button-1 {
+  height: 24px !important; /* Set the height of the button */
+  width: 39% !important;
+  padding: 2px 10px !important; /* Set padding inside the button */
+  border-radius: 4px 0 0 0 !important; /* Rounded corners */
+  border: 0 0 2px 0 !important; /* Set border (bottom border only) */
+  font-family: "Sora", sans-serif !important; /* Apply the Sora font */
+  font-size: 16px !important; /* Set font size */
+  font-weight: 600 !important; /* Set font weight */
+  line-height: 20.16px !important; /* Set line height */
+  letter-spacing: 0.01em !important; /* Set letter spacing */
+  text-align: left !important; /* Align text to the left */
+  border: none !important; /* Remove any border */
+}
+
+/* Override hover styles */
+.custom-button:hover,
+.custom-button-1:hover {
+  background: #62c3c64d !important; /* Keep the same background color on hover */
+  color: #365758 !important; /* Set text color (if the button is visible) */
+  border: none !important; /* Ensure no border is shown on hover */
+}
+
+.button-group {
+  margin-top: 6px !important;
+  width: 300px !important; /* Set the width of the container */
+  height: 28px !important; /* Set the height of the container */
+  display: flex !important; /* Use flexbox to align child elements */
+  align-items: center !important; /* Center align child elements vertically */
+  justify-content: space-between !important; /* Distribute child elements horizontally */
+}
+
+/* Button graphics one styling */
+.button-graphics-one {
+  width: 120px !important; /* Set the width of the button */
+  height: 28px !important; /* Set the height of the button */
+  padding: 4px 10px !important; /* Set padding inside the button */
+  gap: 10px !important; /* Set space between elements inside the button (if any) */
+  border-radius: 4px !important; /* Rounded corners */
+  background: #fcfcfa !important; /* Set background color */
+  color: #116a6c !important; /* Set text color */
+  font-size: 16px !important; /* Set font size */
+  font-weight: 400 !important; /* Set font weight */
+  line-height: 20.16px !important; /* Set line height */
+  text-align: left !important; /* Align text to the left */
+  border: none !important; /* Remove any border */
+  display: flex !important; /* Use flexbox for alignment if needed */
+  align-items: center !important; /* Center align items vertically */
+  justify-content: center !important; /* Center align items horizontally */
+}
+
+.button-graphics-two {
+  width: 120px !important; /* Set the width of the button */
+  height: 28px !important; /* Set the height of the button */
+  padding: 4px 10px !important; /* Set padding inside the button */
+  gap: 10px !important; /* Set space between elements inside the button (if any) */
+  border-radius: 4px !important; /* Rounded corners */
+  background: #62c3c6 !important; /* Set background color */
+  color: white !important; /* Set text color */
+  font-size: 16px !important; /* Set font size */
+  font-weight: 400 !important; /* Set font weight */
+  line-height: 20.16px !important; /* Set line height */
+  text-align: left !important; /* Align text to the left */
+  border: none !important; /* Remove any border */
+  display: flex !important; /* Use flexbox for alignment if needed */
+  align-items: center !important; /* Center align items vertically */
+  justify-content: center !important; /* Center align items horizontally */
+}
+
+.button-graphics-three {
+  background: none !important;
+  border: none !important;
+}
+
+.button-graphics-four {
+  width: 120px !important; /* Set the width of the button */
+  height: 28px !important; /* Set the height of the button */
+  padding: 4px 10px !important; /* Set padding inside the button */
+  gap: 10px !important; /* Set space between elements inside the button (if any) */
+  border-radius: 4px !important; /* Rounded corners */
+  background-color: rgba(98, 195, 198, 0.3) !important;
+  color: #116a6c !important; /* Set text color */
+  font-size: 16px !important; /* Set font size */
+  font-weight: 400 !important; /* Set font weight */
+  line-height: 20.16px !important; /* Set line height */
+  text-align: left !important; /* Align text to the left */
+  border: none !important; /* Remove any border */
+  display: flex !important; /* Use flexbox for alignment if needed */
+  align-items: center !important; /* Center align items vertically */
+  justify-content: center !important; /* Center align items horizontally */
+}
+
+.circle-btn-image {
+  width: 24px !important; /* Adjust width of the image */
+  height: 24px !important; /* Adjust height of the image */
+  background: none !important; /* Remove background color */
+  object-fit: cover !important; /* Ensure the image fits well */
+}
+
+.text-parent-group {
+  margin-top: 32px !important;
+}
+
+/* Container for left and right text */
+.text-group {
+  display: flex !important; /* Use flexbox to align text items */
+  justify-content: space-between !important; /* Distribute space between text items */
+  margin: 2px 54px 0px 10px !important;
+}
+
+/* Style for left text */
+.left-text {
+  font-size: 14px !important; /* Adjust font size */
+  color: #116a6c !important; /* Set text color */
+}
+
+/* Style for right text */
+.right-text {
+  font-size: 14px !important; /* Adjust font size */
+  color: #116a6c !important; /* Set text color */
+}
+
+/* Container for left and right divs */
+.info-container {
+  display: flex !important; /* Use flexbox to align divs side by side */
+  justify-content: space-between !important; /* Distribute space between divs */
+  margin: 10px 0 !important; /* Add space above and below the container */
+}
+
+/* Style for left div */
+.left-div {
+  display: flex !important;
+  flex-direction: column !important; /* Stack text items vertically */
+  align-items: flex-start !important; /* Align text items to the start (left) */
+}
+
+/* Style for top text in left div */
+.top-text {
+  display: flex !important; /* Use flexbox to align children horizontally */
+  align-items: center !important; /* Center align items vertically */
+  gap: 4px !important; /* Space between the left and right text */
+  font-size: 30px !important; /* Set font size */
+  color: #116a6c !important; /* Set text color */
+  font-weight: 800 !important;
+  font-family: "__Inter_36bd41" !important;
+}
+
+.top-text-left {
+  color: #62c3c6 !important;
+}
+
+/* Style for bottom text in left div */
+.bottom-text {
+  font-family: "Sora", sans-serif !important; /* Apply Sora font */
+  font-size: 14px !important; /* Set font size */
+  font-weight: 400 !important; /* Set font weight */
+  color: #116a6c !important; /* Set text color */
+}
+
+/* Style for right div */
+.right-div {
+  display: flex !important; /* Use flexbox for alignment */
+  align-items: center !important; /* Center align the button */
+}
+
+/* Style for the button in the right div */
+.add-to-cart-button {
+  background: #ecfeaa !important; /* Set background color */
+  color: #365758 !important; /* Set text color */
+  font-size: 16px !important; /* Set font size */
+  border: none !important; /* Remove border */
+  border-radius: 24px 0px 24px 0px !important; /* Rounded corners */
+  padding: 6px 12px !important; /* Padding inside the button */
+  letter-spacing: 1px !important; /* Adjust space between characters */
+}
+
+.add-to-cart-button:hover {
+  background: #2b4a4a !important; /* Darker background color on hover */
+}

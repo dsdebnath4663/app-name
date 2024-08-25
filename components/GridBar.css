@@ -1,0 +1,58 @@
+.custom-form {
+  display: flex;
+  align-items: center;
+  width: 100%; /* Ensure the form takes full width available */
+}
+
+.custom-form-control {
+  width: auto; /* Adjust width if necessary */
+}
+
+.navbar-toggler {
+  margin-left: auto; /* Push toggle to the right if needed */
+}
+
+.custom-dropdown-toggle {
+  width: 173px;
+  height: 34px;
+  padding: 2px 12px !important;
+  gap: 10px;
+  border-radius: 4px !important;
+  opacity: 1; /* Adjusted to be visible; set to 0 if you want it invisible */
+  background: #d0edee !important;
+  color: #365758 !important;
+  font-weight: 700 !important;
+  border: none !important; /* Removes default border */
+}
+
+.custom-dropdown-toggle:focus {
+  box-shadow: none; /* Remove focus shadow if needed */
+}
+
+.custom-dropdown-toggle-2 {
+  width: 37px;
+  height: 34px;
+  padding: 2px 12px !important;
+  gap: 10px;
+  border-radius: 4px !important;
+  opacity: 1; /* Adjusted to be visible; set to 0 if you want it invisible */
+  background: #d0edee !important;
+  color: #365758 !important;
+  font-weight: 700 !important;
+  border: none !important; /* Removes default border */
+  margin-left: 6px;
+}
+
+.custom-dropdown-toggle-3 {
+  width: 250px;
+  height: 34px;
+  padding: 4px 12px !important;
+  gap: 10px;
+  border-radius: 4px !important;
+  opacity: 1; /* Adjusted to be visible; set to 0 if you want it invisible */
+  background: #d0edee !important;
+  color: #365758 !important;
+  font-weight: 700 !important;
+  border: none !important; /* Removes default border */
+  margin-left: 6px;
+}
