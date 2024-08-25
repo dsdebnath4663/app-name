@@ -1,6 +1,6 @@
 import '../app/globals.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap-icons/font/bootstrap-icons.css'; 
+import 'bootstrap-icons/font/bootstrap-icons.css';
 import './CustomBreadCumbBar'
 
 import { Navbar, Nav, Form, FormControl, Container, Breadcrumb, Button, Row, Col } from 'react-bootstrap';

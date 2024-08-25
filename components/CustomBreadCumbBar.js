@@ -1,7 +1,7 @@
 import '../app/globals.css';
 import './CustomBreadCumbBar.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap-icons/font/bootstrap-icons.css'; // Importing Bootstrap Icons CSS
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 import { Row, Col, Breadcrumb, Button, Container } from 'react-bootstrap';
 
@@ -10,7 +10,6 @@ const CustomBreadCumbBar = () => {
     < >
       <Row className='custom-row-two'>
         <Col xs={12} md={6}>
-          {/* Left Side: Breadcrumbs with Arrows */}
           <Breadcrumb>
             <Breadcrumb.Item href="#">
               Home
@@ -25,11 +24,8 @@ const CustomBreadCumbBar = () => {
           </Breadcrumb>
         </Col>
         <Col xs={12} md={6}>
-          {/* Right Side: Inner Div */}
           <div className="d-flex flex-column align-items-end">
-            {/* Top: Text */}
             <p className="mb-2">GKV mit Kostenübernahme?</p>
-            {/* Down: Button */}
             <Button className='curve-button'>Preisoptionen</Button>
           </div>
         </Col>

@@ -5,12 +5,10 @@ import GridBar from './GridBar';
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 
 const ProductGrid = ({ products }) => {
-  // Pagination state
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 9; // Number of items per page
 
-  // Calculate total pages
-  // const totalPages = Math.ceil(products.length / itemsPerPage);
+
   const totalPages = Math.ceil(20 / itemsPerPage);
 
   // Get products for the current page

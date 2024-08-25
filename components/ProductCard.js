@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, Button, Badge } from 'react-bootstrap';
-import './ProductCard.css'; // Import the CSS file
+import './ProductCard.css';
 
 const ProductCard = ({ product }) => {
   return (
@@ -29,7 +29,8 @@ const ProductCard = ({ product }) => {
           <Button className="button-graphics-two">CBD {product.cbd}</Button>
           <Button className="button-graphics-three">
             <span className="circle-btn-content">
-              <img src="/images/Bestrahlt.png" alt="Icon" className="circle-btn-image" />
+              <img src="/images/Bestrahlt.png" alt="Icon" className="circle-btn-image" width="100" height="100" />
+
             </span>
           </Button>
         </div>

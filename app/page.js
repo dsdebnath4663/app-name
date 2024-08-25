@@ -5,15 +5,6 @@ import FilterSidebar from '../components/FilterSidebar';
 import ProductGrid from '../components/ProductGrid';
 
 export default function Home() {
-  // const [products, setProducts] = useState([]);
-
-  // useEffect(() => {
-  //   fetch('/api/products')
-  //     .then(res => res.json())
-  //     .then(data => setProducts(data));
-  // }, []);
-
-
 
   const products = [
     {
@@ -22,7 +13,7 @@ export default function Home() {
       thc: '18%',
       cbd: '<1%',
       price: '11.66',
-      image: '/images/cannabis1.png', flag: true,
+      image: '/images/cannabis1.jpg', flag: true,
 
     },
     {
@@ -31,7 +22,7 @@ export default function Home() {
       thc: '22%',
       cbd: '0.5%',
       price: '12.50',
-      image: '/images/cannabis1.png',
+      image: '/images/cannabis1.jpg',
       flag: true,
     },
     {
@@ -40,7 +31,7 @@ export default function Home() {
       thc: '25%',
       cbd: '1%',
       price: '13.75',
-      image: '/images/cannabis1.png', flag: true,
+      image: '/images/cannabis1.jpg', flag: true,
 
     }, {
       id: 4,
@@ -48,7 +39,7 @@ export default function Home() {
       thc: '18%',
       cbd: '<1%',
       price: '11.66',
-      image: '/images/cannabis1.png',
+      image: '/images/cannabis1.jpg',
       flag: false,
 
     },
@@ -58,7 +49,7 @@ export default function Home() {
       thc: '22%',
       cbd: '0.5%',
       price: '12.50',
-      image: '/images/cannabis1.png',
+      image: '/images/cannabis1.jpg',
       flag: false,
 
     },
@@ -68,7 +59,7 @@ export default function Home() {
       thc: '25%',
       cbd: '1%',
       price: '13.75',
-      image: '/images/cannabis1.png',
+      image: '/images/cannabis1.jpg',
       flag: false,
 
     }, {
@@ -77,7 +68,7 @@ export default function Home() {
       thc: '18%',
       cbd: '<1%',
       price: '11.66',
-      image: '/images/cannabis1.png',
+      image: '/images/cannabis1.jpg',
       flag: true,
 
     },
@@ -87,7 +78,7 @@ export default function Home() {
       thc: '22%',
       cbd: '0.5%',
       price: '12.50',
-      image: '/images/cannabis1.png',
+      image: '/images/cannabis1.jpg',
       flag: true,
 
     },
@@ -97,7 +88,7 @@ export default function Home() {
       thc: '25%',
       cbd: '1%',
       price: '13.75',
-      image: '/images/cannabis1.png',
+      image: '/images/cannabis1.jpg',
       flag: true,
 
     },

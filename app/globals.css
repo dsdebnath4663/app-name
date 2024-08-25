@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Sora:wght@600&display=swap");
-
 .page-body {
   padding: 0 5% !important;
 }
@@ -35,11 +33,16 @@ body {
 }
 
 .custom-div {
-  width: 10px !important;
-  height: 16px !important;
+  width: 10px;
+  height: 16px;
   border-radius: 16px 0px 16px 0px !important;
   background: #62c3c64d;
   margin-bottom: 15px;
+}
+
+.custom-div-two {
+  width: 20px !important;
+  height: 26px !important;
 }
 
 .custom-div-color {
@@ -55,6 +58,12 @@ p {
 .p-color {
   color: #045a5c !important;
   font-weight: 800;
+}
+
+.p-color-two {
+  color: #045a5c !important;
+  font-weight: 800;
+  font-size: 36px;
 }
 
 .justify-content-end {
@@ -96,11 +105,6 @@ p {
 
 .custom-form .btn:hover {
   background-color: transparent !important;
-}
-
-.logo {
-  position: absolute;
-  margin-top: -57px;
 }
 
 .custom-row {

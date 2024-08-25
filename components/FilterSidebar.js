@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
-// import { Slider } from '@material-ui/core';
 import { Slider } from '@mui/material';
 
 import './FilterSidebar.css'
 import '../app/globals.css';
-import 'bootstrap-icons/font/bootstrap-icons.css'; // Importing Bootstrap Icons CSS
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 const FilterSidebar = () => {
   const [priceRange, setPriceRange] = useState([5, 100]);
@@ -20,7 +19,7 @@ const FilterSidebar = () => {
 
   return (
     <>
-      <img className='logo' src='/icons/logo.svg' alt='Logo' />
+      <a href="#link3" data-rr-ui-event-key="#link3" className="nav-link-with-icon nav-link"><div className="custom-div-two custom-div custom-div-color"></div><p className="p-color-two">Blüten</p></a>
       <div className="filter-section p-3 mb-4">
         <h4 className="font-weight-bold custom-filter">Filter</h4>
 
@@ -66,11 +65,11 @@ const FilterSidebar = () => {
               <label htmlFor="filter2">Aurora</label>
             </div>
             <div className="checkbox-item">
-              <input type="checkbox" id="filter3" checked />
+              <input type="checkbox" id="filter3" />
               <label htmlFor="filter3">Avaay</label>
             </div>
             <div className="checkbox-item">
-              <input type="checkbox" id="filter4" checked />
+              <input type="checkbox" id="filter4" />
               <label htmlFor="filter4">Bedrocan</label>
             </div>
             <div className="checkbox-item">
@@ -171,11 +170,11 @@ const FilterSidebar = () => {
               <label htmlFor="filter2">Aurora</label>
             </div>
             <div className="checkbox-item">
-              <input type="checkbox" id="filter3" checked />
+              <input type="checkbox" id="filter3" />
               <label htmlFor="filter3">Avaay</label>
             </div>
             <div className="checkbox-item">
-              <input type="checkbox" id="filter4" checked />
+              <input type="checkbox" id="filter4" />
               <label htmlFor="filter4">Bedrocan</label>
             </div>
             <div className="checkbox-item">

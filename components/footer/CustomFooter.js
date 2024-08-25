@@ -1,7 +1,7 @@
-"use client"; // Add this at the top of your file
+"use client";
 import "./CustomFooter.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap-icons/font/bootstrap-icons.css"; // Importing Bootstrap Icons CSS
+import "bootstrap-icons/font/bootstrap-icons.css";
 
 const CustomFooter = () => {
   return (
@@ -10,7 +10,6 @@ const CustomFooter = () => {
         <div className="row">
           <div className="col-md-2 text-right">
             <ul className="list-unstyled">
-            {/* margin-top: 96px; */}
 
               <li>
                 <a href="/" className="text-white">

@@ -2,7 +2,7 @@ import '../app/globals.css';
 import './GridBar.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap-icons/font/bootstrap-icons.css'; // Importing Bootstrap Icons CSS
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 import { Navbar, Nav, Form, FormControl, Button, Container, Dropdown } from 'react-bootstrap';
 
@@ -14,7 +14,6 @@ const GridBar = () => {
         <Navbar.Toggle aria-controls="navbar-nav" />
         <Navbar.Collapse id="navbar-nav">
           <Nav className="me-auto">
-            {/* Add navigation links here if needed */}
           </Nav>
           <Form className="custom-form d-flex align-items-center">
             <FormControl

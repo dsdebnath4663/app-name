@@ -144,13 +144,6 @@
   justify-content: center !important;
 }
 
-.circle-btn-image {
-  width: 24px !important;
-  height: 24px !important;
-  background: none !important;
-  object-fit: cover !important;
-}
-
 .text-parent-group {
   margin-top: 32px !important;
 }
