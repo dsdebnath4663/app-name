@@ -1,6 +1,6 @@
 import '../app/globals.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap-icons/font/bootstrap-icons.css'; // Importing Bootstrap Icons CSS
+import 'bootstrap-icons/font/bootstrap-icons.css'; 
 import './CustomBreadCumbBar'
 
 import { Navbar, Nav, Form, FormControl, Container, Breadcrumb, Button, Row, Col } from 'react-bootstrap';
@@ -23,7 +23,7 @@ const CustomNavBar = () => {
           </Button>
         </Form>
         <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="navbarScroll" className="justify-content-end">
+        <Navbar.Collapse id="navbarScroll" >
           <Nav className="me-auto-custom my-2 my-lg-0" navbarScroll>
 
             <Nav.Link href="#link3" className="nav-link-with-icon">

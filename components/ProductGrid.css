@@ -1,55 +1,77 @@
 /* CSS for the Product Grid */
 .row {
   display: flex;
-  flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
-  margin: -15px; /* Adjust margins for spacing between columns */
+  flex-wrap: wrap;
+  margin: -15px;
 }
 
 .col-md-4 {
-  padding: 15px; /* Add padding around columns */
+  padding: 15px;
 }
 
 .product-card {
   display: flex;
-  flex-direction: column; /* Stack elements vertically */
-  height: 100%; /* Ensure the card takes up the full height of its container */
-  background-color: #fff; /* Optional: background color for better visibility */
-}
-
-/* Optional: Ensure all cards in a row have the same height */
-.row > .col-md-4 {
-  display: flex;
-  align-items: stretch; /* Stretch child items to have equal height */
-}
-
-/* Flex container to push pagination to the bottom */
-.row {
-  flex: 1;
+  flex-direction: column;
+  height: 100%;
+  background-color: #fff;
 }
 
 /* Pagination container styling */
 .pagination-container {
   margin-top: 20px;
   display: flex;
-  justify-content: flex-end; /* Aligns pagination to the right */
-  padding: 0 15px; /* Adds some horizontal padding */
+  justify-content: flex-end;
+  padding: 0 15px;
 }
 
 /* Bootstrap pagination styles */
 .pagination {
-  margin: 0; /* Removes default margin */
+  margin: 0;
 }
 
-/* Pagination item active state */
-.page-item.active .page-link {
-  background-color: #007bff; /* Active page background color */
-  border-color: #007bff; /* Active page border color */
-  color: white; /* Active page text color */
+.image-container {
+  position: relative;
 }
 
-/* Pagination link styling */
-.page-link {
-  padding: 0.5rem 0.75rem; /* Adjust padding as needed */
-  border: 1px solid #dee2e6; /* Default border color */
-  border-radius: 0.25rem; /* Rounded corners */
+.badge-sofort {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+}
+
+.badge-new {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+}
+
+.badge-info {
+  background-color: rgba(98, 195, 198, 0.1) !important;
+  color: #0d7052 !important;
+}
+
+.badge-warn {
+  background-color: rgba(161, 12, 12, 0.05) !important;
+  color: #a10c0c !important;
+}
+
+.badge-info::before {
+  content: "•";
+  color: #0d7052 !important;
+  margin-right: 5px;
+  font-size: 1.2em;
+}
+
+.badge-warn::before {
+  content: "•";
+  color: #0d7052 !important;
+  margin-right: 5px;
+  font-size: 1.2em;
 }

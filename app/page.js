@@ -22,7 +22,8 @@ export default function Home() {
       thc: '18%',
       cbd: '<1%',
       price: '11.66',
-      image: '/images/cannabis1.png',
+      image: '/images/cannabis1.png', flag: true,
+
     },
     {
       id: 2,
@@ -31,6 +32,7 @@ export default function Home() {
       cbd: '0.5%',
       price: '12.50',
       image: '/images/cannabis1.png',
+      flag: true,
     },
     {
       id: 3,
@@ -38,7 +40,8 @@ export default function Home() {
       thc: '25%',
       cbd: '1%',
       price: '13.75',
-      image: '/images/cannabis1.png',
+      image: '/images/cannabis1.png', flag: true,
+
     }, {
       id: 4,
       name: 'Cannabis Flos 18/1 PT Mango',
@@ -46,6 +49,8 @@ export default function Home() {
       cbd: '<1%',
       price: '11.66',
       image: '/images/cannabis1.png',
+      flag: false,
+
     },
     {
       id: 5,
@@ -54,6 +59,8 @@ export default function Home() {
       cbd: '0.5%',
       price: '12.50',
       image: '/images/cannabis1.png',
+      flag: false,
+
     },
     {
       id: 6,
@@ -62,6 +69,8 @@ export default function Home() {
       cbd: '1%',
       price: '13.75',
       image: '/images/cannabis1.png',
+      flag: false,
+
     }, {
       id: 7,
       name: 'Cannabis Flos 18/1 PT Mango',
@@ -69,6 +78,8 @@ export default function Home() {
       cbd: '<1%',
       price: '11.66',
       image: '/images/cannabis1.png',
+      flag: true,
+
     },
     {
       id: 8,
@@ -77,6 +88,8 @@ export default function Home() {
       cbd: '0.5%',
       price: '12.50',
       image: '/images/cannabis1.png',
+      flag: true,
+
     },
     {
       id: 9,
@@ -85,16 +98,18 @@ export default function Home() {
       cbd: '1%',
       price: '13.75',
       image: '/images/cannabis1.png',
+      flag: true,
+
     },
   ]
     ;
   return (
-    <div className="row">
+    <div className="row custom-row">
       <aside className="col-md-3">
         <FilterSidebar />
       </aside>
       <section className="col-md-9">
-        
+
         <ProductGrid products={products} />
       </section>
     </div>

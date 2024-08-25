@@ -5,31 +5,17 @@
 }
 
 .breadcrumb-item + .breadcrumb-item::before {
-  content: "";
-  display: inline-block;
-  margin: 0 10px;
-  vertical-align: middle;
-  font-size: 16px; /* Adjust icon size */
-}
-
-/* Remove default slashes */
-.breadcrumb-item + .breadcrumb-item::before {
-  content: none;
-}
-
-/* Add custom separator (optional) */
-.custom-breadcrumb .breadcrumb-item + .breadcrumb-item::before {
-  content: "\f054"; /* Example: Unicode for a right arrow */
-  font-family: "Bootstrap Icons"; /* Ensure the icon font is loaded */
-  margin: 0 10px; /* Adjust spacing as needed */
+  content: var(--bs-breadcrumb-divider, "") !important;
 }
 
 a {
   text-decoration: none !important;
 }
 
-.breadcrumb-item + .breadcrumb-item::before {
-  content: var(--bs-breadcrumb-divider, "") !important;
+.custom-breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+  content: "\f054";
+  font-family: "Bootstrap Icons";
+  margin: 0 10px;
 }
 
 .curve-button {

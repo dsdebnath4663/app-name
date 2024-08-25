@@ -8,69 +8,77 @@
 }
 
 .expanded {
-  max-height: 500px; /* Adjust based on the content height */
+  max-height: 500px;
 }
 
 .checkbox-item {
   margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  width: 250px;
+  height: 37px;
+  gap: 10px;
+}
+
+.checkbox-item input[type="checkbox"] {
+  width: 24px !important;
+  height: 24px !important;
+}
+
+.checkbox-item label {
+  font-size: 16px;
+  line-height: 20.16px;
+  text-align: left;
+  color: #365758 !important;
+  font-family: Arial, sans-serif;
 }
 
 .custom-filter {
-  width: 414px; /* Fill (250px) */
-  height: 44px; /* Hug (34px) */
-  padding: 10px 10px; /* Padding */
-  gap: 10px; /* Gap */
-  border-radius: 4px 0 0 0; /* Border radius */
-  border-bottom: 2px solid transparent; /* Border (only bottom) */
-  background-color: rgba(
-    98,
-    195,
-    198,
-    0.1
-  ); /* Background color with 10% opacity */
-  text-align: center; /* Center the text */
+  width: 313px;
+  height: 44px;
+  padding: 10px 10px;
+  gap: 10px;
+  border-radius: 4px 0 0 0;
+  border-bottom: 2px solid transparent;
+  background-color: rgba(98, 195, 198, 0.1);
+  text-align: center;
 }
 
 .font-weight-bold {
   font-weight: bold;
 }
+
 .MuiSlider-track {
   height: 7px !important;
-  /* background-color: rgba(98, 195, 198, 0.1) !important; */
   background: #62c3c6 !important;
 }
 
 .MuiSlider-thumb {
   height: 20px !important;
   margin-top: -2px !important;
-  border-radius: 15.38px 0 15.38px 0 !important; /* Updated Border radius */
+  border-radius: 15.38px 0 15.38px 0 !important;
   background: #62c3c6 !important;
   width: 15.38px !important;
 }
 
 .MuiSlider-rail {
-  opacity: 0!;
+  opacity: 0 !important;
   background: #62c3c6 !important;
   height: 8px !important;
 }
 
 .custom-span {
-  display: inline-block; /* Allows width and height to be applied */
-  width: 186px; /* Fill (116px) */
-  height: 31px; /* Hug (24px) */
-  padding: 2px 10px; /* Padding */
-  gap: 10px; /* Gap */
-  border-radius: 20px; /* Border radius */
-  background-color: rgba(
-    129,
-    145,
-    145,
-    0.1
-  ); /* Background color with 10% opacity */
+  display: inline-block;
+  width: 129px;
+  height: 31px;
+  padding: 2px 10px;
+  gap: 10px;
+  border-radius: 20px;
+  background-color: rgba(129, 145, 145, 0.1);
 }
 
 .custom-header {
-  width: 414px;
+  width: 320px;
   height: 44px;
   padding: 10px 10px;
   border-radius: 4px 0 0 0;
@@ -80,7 +88,7 @@
 }
 
 hr {
-  border-bottom: 1px solid rgba(98, 195, 198, 0.3) !important; /* Border bottom with 30% opacity */
+  border-bottom: 1px solid rgba(98, 195, 198, 0.3) !important;
 }
 
 .toggleCollapse {
@@ -93,8 +101,9 @@ hr {
   color: #365758 !important;
   border: none !important;
 }
+
 .toggleCollapse .custom-header-1 {
-  width: 414px;
+  width: 243px;
   height: 44px;
   padding: 4px 10px;
   border-radius: 4px 0 0 0;
@@ -106,44 +115,16 @@ hr {
   color: #62c3c6 !important;
 }
 
-.checkbox-item {
-  display: flex;
-  align-items: center;
-  width: 250px; /* Adjust the width as needed */
-  height: 37px; /* Adjust the height as needed */
-  gap: 10px; /* Space between checkbox and label */
-}
-
-.checkbox-item input[type="checkbox"] {
-  width: auto; /* Default size of checkbox */
-  height: auto; /* Default size of checkbox */
-}
-
-.checkbox-item label {
-  font-family: Arial, sans-serif; /* Optional: adjust font styling */
-  font-size: 16px; /* Optional: adjust font size */
-}
-.checkbox-item input[type="checkbox"] {
-  width: 24px !important;
-  height: 24px !important;
-}
-/* Applying styles directly to the label */
-.checkbox-item label {
-  font-size: 16px;
-  line-height: 20.16px; /* Ensures proper line spacing */
-  text-align: left; /* Aligns text to the left */
-  color: #365758 !important;
-}
-
 .button-group-override {
   margin-top: 6px !important;
-  height: 28px !important; /* Set the height of the container */
-  display: flex !important; /* Use flexbox to align child elements */
-  align-items: center !important; /* Center align child elements vertically */
-  justify-content: space-between !important; /* Distribute child elements horizontally */
+  height: 28px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
 }
+
 .button-graphics-five {
-  width: 191px !important;
+  width: 134px !important;
   height: 28px !important;
   border-radius: 4px !important;
   border: none !important;
@@ -166,8 +147,9 @@ hr {
   color: #28e3e9 !important;
   margin-right: 2px;
 }
+
 .button-container {
   display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
+  justify-content: center;
+  align-items: center;
 }

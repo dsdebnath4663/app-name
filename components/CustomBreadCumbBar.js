@@ -8,7 +8,7 @@ import { Row, Col, Breadcrumb, Button, Container } from 'react-bootstrap';
 const CustomBreadCumbBar = () => {
   return (
     < >
-      <Row>
+      <Row className='custom-row-two'>
         <Col xs={12} md={6}>
           {/* Left Side: Breadcrumbs with Arrows */}
           <Breadcrumb>

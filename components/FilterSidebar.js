@@ -63,19 +63,19 @@ const FilterSidebar = () => {
             </div>
             <div className="checkbox-item">
               <input type="checkbox" id="filter2" />
-              <label htmlFor="filter2">Filter 2</label>
+              <label htmlFor="filter2">Aurora</label>
             </div>
             <div className="checkbox-item">
-              <input type="checkbox" id="filter3" />
-              <label htmlFor="filter3">Filter 3</label>
+              <input type="checkbox" id="filter3" checked />
+              <label htmlFor="filter3">Avaay</label>
             </div>
             <div className="checkbox-item">
-              <input type="checkbox" id="filter4" />
-              <label htmlFor="filter4">Filter 4</label>
+              <input type="checkbox" id="filter4" checked />
+              <label htmlFor="filter4">Bedrocan</label>
             </div>
             <div className="checkbox-item">
               <input type="checkbox" id="filter5" />
-              <label htmlFor="filter5">Filter 5</label>
+              <label htmlFor="filter5">Cannamedical</label>
             </div>
           </div>
 
@@ -85,7 +85,7 @@ const FilterSidebar = () => {
 
         </div>
 
-        <div class="mb-3 button-container">
+        <div className="mb-3 button-container">
           <button type="button" className="curve-button-two btn btn-primary">Preisoptionen</button>
         </div>
         <hr />
@@ -136,19 +136,19 @@ const FilterSidebar = () => {
         </div>
         <div className="mb-3">
           <h4 className="font-weight-bold custom-header">Genetik</h4>
-          <div class=" button-group-override">
-            <button type="button" class="button-graphics-two btn btn-primary"> Indica </button>
-            <button type="button" class="button-graphics-four btn btn-primary">Sativa</button>
-            <button type="button" class="button-graphics-four btn btn-primary">Hybrid</button>
+          <div className=" button-group-override">
+            <button type="button" className="button-graphics-two btn btn-primary"> Indica </button>
+            <button type="button" className="button-graphics-four btn btn-primary">Sativa</button>
+            <button type="button" className="button-graphics-four btn btn-primary">Hybrid</button>
           </div>
           <hr />
         </div>
 
         <div className="mb-3">
-          <h4 className="font-weight-bold custom-header">Genetik</h4>
-          <div class=" button-group-override">
-            <button type="button" class="button-graphics-five btn btn-primary color-one"> bestrahlt </button>
-            <button type="button" class="button-graphics-five btn btn-primary color-two">nicht bestrahlt</button>
+          <h4 className="font-weight-bold custom-header">Bestrahltung</h4>
+          <div className=" button-group-override">
+            <button type="button" className="button-graphics-five btn btn-primary color-one"> bestrahlt </button>
+            <button type="button" className="button-graphics-five btn btn-primary color-two">nicht bestrahlt</button>
           </div>
           <hr />
         </div>
@@ -157,7 +157,7 @@ const FilterSidebar = () => {
 
           <button onClick={toggleCollapse} className="btn btn-primary toggleCollapse  ">
             <h4 className="font-weight-bold custom-header-1">
-              Hersteller<i className={`bi ${isCollapsed ? 'bi-chevron-down bi-design' : 'bi-chevron-up bi-design'}`} />
+              Terpene<i className={`bi ${isCollapsed ? 'bi-chevron-down bi-design' : 'bi-chevron-up bi-design'}`} />
             </h4>
 
           </button>
@@ -168,19 +168,19 @@ const FilterSidebar = () => {
             </div>
             <div className="checkbox-item">
               <input type="checkbox" id="filter2" />
-              <label htmlFor="filter2">Filter 2</label>
+              <label htmlFor="filter2">Aurora</label>
             </div>
             <div className="checkbox-item">
-              <input type="checkbox" id="filter3" />
-              <label htmlFor="filter3">Filter 3</label>
+              <input type="checkbox" id="filter3" checked />
+              <label htmlFor="filter3">Avaay</label>
             </div>
             <div className="checkbox-item">
-              <input type="checkbox" id="filter4" />
-              <label htmlFor="filter4">Filter 4</label>
+              <input type="checkbox" id="filter4" checked />
+              <label htmlFor="filter4">Bedrocan</label>
             </div>
             <div className="checkbox-item">
               <input type="checkbox" id="filter5" />
-              <label htmlFor="filter5">Filter 5</label>
+              <label htmlFor="filter5">Cannamedical</label>
             </div>
           </div>
 

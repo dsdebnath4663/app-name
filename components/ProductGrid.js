@@ -10,6 +10,7 @@ const ProductGrid = ({ products }) => {
   const itemsPerPage = 9; // Number of items per page
 
   // Calculate total pages
+  // const totalPages = Math.ceil(products.length / itemsPerPage);
   const totalPages = Math.ceil(20 / itemsPerPage);
 
   // Get products for the current page
@@ -23,8 +24,21 @@ const ProductGrid = ({ products }) => {
     setCurrentPage(pageNumber);
   };
 
-  return (
+  // Handle previous page
+  const handlePrevPage = () => {
+    if (currentPage > 1) {
+      setCurrentPage(currentPage - 1);
+    }
+  };
 
+  // Handle next page
+  const handleNextPage = () => {
+    if (currentPage < totalPages) {
+      setCurrentPage(currentPage + 1);
+    }
+  };
+
+  return (
     <div className='product'>
       <GridBar />
       <div className="row">
@@ -36,6 +50,15 @@ const ProductGrid = ({ products }) => {
       </div>
       <div className="pagination-container">
         <ul className="pagination justify-content">
+          <li className="page-item">
+            <button
+              className="page-link"
+              onClick={handlePrevPage}
+              disabled={currentPage === 1}
+            >
+              &laquo; {/* Left double angle quote (<<) */}
+            </button>
+          </li>
           {Array.from({ length: totalPages }, (_, index) => (
             <li
               key={index}
@@ -49,6 +72,15 @@ const ProductGrid = ({ products }) => {
               </button>
             </li>
           ))}
+          <li className="page-item">
+            <button
+              className="page-link"
+              onClick={handleNextPage}
+              disabled={currentPage === totalPages}
+            >
+              &raquo; {/* Right double angle quote (>>) */}
+            </button>
+          </li>
         </ul>
       </div>
     </div>

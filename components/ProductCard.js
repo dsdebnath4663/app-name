@@ -1,19 +1,32 @@
 import React from 'react';
-import { Card, Button } from 'react-bootstrap';
+import { Card, Button, Badge } from 'react-bootstrap';
 import './ProductCard.css'; // Import the CSS file
 
 const ProductCard = ({ product }) => {
-
-
   return (
     <Card className="product-card custom-border">
-      <Card.Img variant="top" src={product.image} />
+
+      <div className="image-container">
+        <Card.Img variant="top" src={product.image} />
+
+
+        {!product.flag && (
+          <><Badge className="badge-sofort badge-info" bg="light">Sofort lieferbar</Badge>
+            <Badge className="badge-new badge-info" bg="light">New</Badge></>)}
+
+
+        {product.flag && (
+          <><Badge className="badge-sofort badge-warn" bg="light">nicht lieferbar</Badge>
+          </>)}
+
+      </div>
+
       <Card.Body>
         <Button className="custom-button">Canify</Button>
 
         <div className="button-group">
           <Button className="button-graphics-one">THC {product.thc}</Button>
-          <Button className="button-graphics-two"> CBD {product.cbd}</Button>
+          <Button className="button-graphics-two">CBD {product.cbd}</Button>
           <Button className="button-graphics-three">
             <span className="circle-btn-content">
               <img src="/images/Bestrahlt.png" alt="Icon" className="circle-btn-image" />
@@ -43,7 +56,6 @@ const ProductCard = ({ product }) => {
               <div className="top-text-right">
                 {product.price}
               </div>
-
             </div>
             <div className="bottom-text">pro Gramm</div>
           </div>
